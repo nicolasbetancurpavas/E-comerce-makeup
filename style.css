@@ -5,7 +5,7 @@
     --color-3: #1e91ed;
     --color-5: #ba74df;
     --colorblack: rgb(25, 25, 25);
-    --color-blanquito: rgb(241, 240, 240);
+    --color-blanquito: rgb(237, 235, 235);
 }
 
 * {
@@ -24,6 +24,12 @@ html {
 }
 
 /*---------------NAV------------*/
+.header {
+    text-align: center;
+    padding:1rem;
+    background-color:var(--color-blanquito);
+    color:var(--color-2);
+}
 
 .container__nav-mobile {
     display: flex;
@@ -35,13 +41,17 @@ html {
 .item__nav-mobile-title {
     width: 100%;
 }
-
+.item__nav-mobileee{
+    margin-top:0.8rem;
+    width:10%;
+}
 .item__nav-mobile {
     width: 20%;
 }
-.item__nav-mobilee{
-    margin-top:0.6rem;
-    width: 60%;
+
+.item__nav-mobilee {
+    margin-top: 0.6rem;
+    width:70%;
 }
 
 .item__main {
@@ -63,49 +73,49 @@ html {
 }
 
 .item__nav-mobile {
-    margin-top: 1.2rem;
+    margin-top: 1rem;
 }
 
 .enlace-item {
-    font-size: 1.6rem;
-    color: var(--color-2);
+    font-size: 2rem;
+    color:var(--color-2);
 
 }
 
 .text_mobile {
     font-family: monospace;
-    font-size: 2.4rem;
-    color:var(--color-2);
-    text-shadow:var(--color-0) 2px 2px 0px,var(--color-2) 3px 3px 0px;
+    font-size: 2.6rem;
+    color: var(--color-2);
+    text-shadow: var(--color-0) 2px 2px 0px, var(--color-2) 3px 3px 0px;
 }
 
 /*--------Offcanvas---------*/
 
-.offcanvas-header{
-    background-color:var(--color-0);
-    height:4%;
-}
-.offcanvas-body{
-    padding:0rem;
-    margin-top:2rem;
-    background-color:var(--color-blanquitooffcanvas)
+.offcanvas-header {
+    background-color: var(--color-0);
+    height: 4%;
 }
 
-#offcanvasExample{
-    width:80%;
+.offcanvas-body {
+    padding: 0rem;
+    margin-top: 2rem;
+    background-color: var(--color-blanquitooffcanvas);
 }
 
-.container-main{
+#offcanvasExample {
+    width: 80%;
+}
+
+.container-main {
     list-style: none;
-    margin:0;
-    padding:0;
+    margin: 0;
+    padding: 0;
 }
 
-.enlace__main{
-    font-family:'Times New Roman', Times, serif;
+.enlace__main {
+    font-family: 'Times New Roman', Times, serif;
     font-weight: 300;
-    font-size:1.4rem;
-    text-decoration:none;
+    font-size: 1.7rem;
+    text-decoration: none;
     color: #15ab92;
 }
-

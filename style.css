@@ -1,0 +1,124 @@
+:root {
+    --color-0: #9ddbc9;
+    --color-1: #f3aacb;
+    --color-2: #15ab92;
+    --color-3: #1e91ed;
+    --color-5: #ba74df;
+    --colorblack: rgb(25, 25, 25);
+    --color-blanquito: rgb(241, 240, 240);
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+#body {
+    font-size: 1rem;
+    background-color: var(--color-0);
+}
+
+/*---------------NAV------------*/
+
+.container__nav-mobile {
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+
+}
+
+.item__nav-mobile-title {
+    width: 100%;
+}
+
+.item__nav-mobile {
+    width: 33.3%;
+}
+
+.item__main {
+    display: flex;
+    justify-items: flex-start;
+    margin-left: 1rem;
+}
+
+.container-right-nav {
+    display: flex;
+    list-style: none;
+    justify-content: flex-end;
+    position: relative;
+    right: 0;
+}
+
+.item-nav-right {
+    margin-right: 1rem;
+}
+
+.item__nav-mobile {
+    margin-top: 1.2rem;
+}
+
+.enlace-item {
+    font-size: 1.6rem;
+    color: var(--color-2);
+
+}
+
+.text_mobile {
+    font-family: monospace;
+    font-size: 2.4rem;
+    color: var(--color-2);
+    color:var(--color-0);
+    text-shadow: 0 1px 0 var(--color-2), 0 2px 0 var(--color-2), 0 1px 0 var(--color-2), 0 4px 0 var(--color-2), 0 4px 0 var(--color-2), 0 6px 1px rgba(0, 0, 0, .1), 0 0 5px rgba(0, 0, 0, .1), 0 1px 3px rgba(0, 0, 0, .3), 0 3px 5px rgba(0, 0, 0, .2), 0 5px 10px rgba(0, 0, 0, .25), 0 10px 10px rgba(0, 0, 0, .2), 0 15px 15px rgba(0, 0, 0, 0);
+}
+
+/*--------Offcanvas---------*/
+
+.offcanvas-header{
+    background-color:var(--color-0);
+}
+.offcanvas-body{
+    margin-top:5rem;
+    text-align: center;
+    background-color:var(--color-blanquitooffcanvas)
+}
+.offcanvas{
+    height:60%;
+}
+
+.container-main{
+    list-style: none;
+}
+
+.enlace__main{
+    font-family:'Times New Roman', Times, serif;
+    font-size:large;
+    font-weight: bold;
+    text-decoration:none;
+    color: #15ab92;
+    text-shadow: -1px 1px 2px #656565;
+}
+
+#dropdownMenuButton{
+    background-color: #15ab92;
+    border: 1px var(--color-blanquito);
+    margin-left:1.5rem;
+    width:55%;
+    font-size:large;
+}
+
+#drow{
+    width:55%;
+    padding:3rem;
+    text-align: center;
+    background-color:var(--color-0);
+}
+#droplink{
+    color:var(--color-2);
+    font-size:1.2rem;
+    font-weight:bold;
+}
